@@ -1,6 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        // Factorial of a number
+        // Fibonacci sequence
         int iterations = 20;
         if (iterations == 1) {
             System.out.println(0);
@@ -16,6 +16,5 @@ class Main {
             newNumber = aux;
             System.out.println(newNumber);
         }
-
     }
 }
